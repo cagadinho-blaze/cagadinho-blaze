@@ -1,0 +1,35 @@
+import random
+maiorT=None
+maiorH=None
+soma=0
+temperaturas=[0]*24
+for i in range(0,len(temperaturas)):
+    temperaturas[i]=random.randint(15,30)
+    soma+=temperaturas[i]
+    if(maiorT is None):
+        maiorT=temperaturas[i]
+        maiorH=i
+    if(temperaturas[i]>maiorT):
+        maiorT=temperaturas[i]
+        maiorH=i
+media=soma/len(temperaturas)
+print(f"A temperatura média é {media}°C")
+print(f"A maior temperatura é {maiorT}")
+print(f"Registrada as {maiorH}h")
+
+cont=0
+for i in range(0,len(temperaturas)):
+    if(maiorT==temperaturas[i]):
+        cont+=1
+print(f"{maiorT} graus foi registrado {cont} vezes")
+
+horarios=[0]*cont
+controle=0
+for i in range(0,len(temperaturas)):
+    if(maiorT==temperaturas[i]):
+        horarios[controle]=i
+        controle+=1
+print("Horários de maior temepratura:")
+for j in range(0,len(horarios)):
+    print(f"{horarios[j]}h")
+        
