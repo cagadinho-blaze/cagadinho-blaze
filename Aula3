@@ -1,0 +1,8 @@
+import certo
+#x=int(input("Informe o número:")) É SUBSTITUIDO POR
+for v in range(1,101):
+    resposta=certo.ehPrimo(v)
+if(resposta):
+    print("É Primo")
+else:
+    print("Não é Primo")
