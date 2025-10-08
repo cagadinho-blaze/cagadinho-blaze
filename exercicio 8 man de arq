@@ -17,7 +17,7 @@ for i in range(0,len(vet)):
     salvo=float(vet[i].strip())
     if(maior<=salvo):
         maior=float(vet[i])
-media=soma/2
+media=soma/len(vet)
 print(media)
 print(maior)
 arq.close()
