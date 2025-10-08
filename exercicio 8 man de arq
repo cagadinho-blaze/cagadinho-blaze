@@ -1,0 +1,23 @@
+arq=open("notas.txt","w")
+arq.close()
+arq=open("notas.txt","a",encoding="utf8")
+arq.write("Joãozinho,8.5\n")
+arq.write("Mariazinha,90.0\n")
+arq.write("Pedrinho,11.0\n")
+arq.write("Chiquinha,10.0\n")
+arq.close()
+arq=open("notas.txt","r",encoding="utf8")
+vet=arq.readlines()
+soma=0
+maior=0.0
+for i in range(0,len(vet)):
+    x=vet[i].split(",")
+    vet[i]=x[1]
+    soma+=float(vet[i].strip())
+    salvo=float(vet[i].strip())
+    if(maior<=salvo):
+        maior=float(vet[i])
+media=soma/2
+print(media)
+print(maior)
+arq.close()
