@@ -1,0 +1,146 @@
+# Questionários
+
+## Questões para Ana, Júlia e Rosa
+
+---
+
+## 📌 Questões para Ana
+
+1. É possível fazer uma carteira da biblioteca de maneira digital?
+
+2. **O sistema funciona para pessoas fora da FIP?**  
+   *Resposta Júlia:* “Aluno, professor, funcionário e direção. Comunidade externa não tem acesso.”
+
+3. **Frequência de alunos e professores na biblioteca?**
+
+4. **Cadastros ativos da biblioteca?** (BiblioFIP)
+
+5. **Número de livros pendentes ou com atraso?**
+
+6. **Os softwares necessitam de alguma otimização? No que?**  
+   *Resposta Júlia:* “O sistema atual é instável e não possui notificação automática.”
+
+7. **A biblioteca desempenha papel cooperativo com outras instituições?**
+
+8. **A biblioteca funciona de noite e de dia?**
+
+9. **Documentos a respeito da legislação da biblioteca**
+
+10. **Políticas a respeito da biblioteca?**
+
+11. **Cadastro dos livros registrados e seus empréstimos, devoluções e reservas?**
+
+12. **Há penalidades por atraso, livro danificado ou perdido?**
+
+13. **Haverá diferença por tipo de usuário?**  
+    (Aluno, Professor e Funcionário: diferenças de prazo, limite de livros e penalidades)
+
+14. **Quais logs de registros deseja implementar?**
+
+15. **Como desejaria que organizasse o sistema?**
+
+16. **Quais as principais dificuldades/problemas da biblioteca?**
+
+17. **Quais as informações necessárias para o cadastro de aluno/professor/comunidade externa?**
+
+18. **Quais as informações necessárias para o cadastro do livro?**
+
+19. **Quais os livros mais lidos e favoritos?**
+
+20. **Preciso das normas e regulamentos gerais de uso e inventário do acervo?**
+
+21. Regras do diretor: prazos e limites de empréstimo
+
+22. Qual o tempo de resposta que o sistema deve retornar ao acessar uma aba?
+
+23. Como funciona o sistema para visitantes?  
+    (Detalhes como nome completo, CPF, etc.)
+
+24. Protocolo para livro perdido
+
+25. **Se um aluno acessa um site não permitido, o que deve ser feito?**  
+    Banimento por 3 dias ou punição mais severa (1 mês)?
+
+26. **Os valores das multas serão diferentes para alunos, professores e funcionários? Assim como os prazos?**
+
+27. Seria interessante ter uma biblioteca digital no sistema?
+
+---
+
+## 📌 Questões para Rosa
+
+1. Se um aluno acessa um site não permitido, qual a punição?  
+   (3 dias ou 1 mês de banimento?)
+
+2. Caso o usuário deseje cancelar o empréstimo, ele deve se dirigir à biblioteca física?
+
+3. **Os softwares necessitam de alguma otimização? No que?**
+
+4. **Nome, funcionalidade e horário de atendimento dos profissionais?**
+
+5. **Documento sobre o uso do sistema?**
+
+6. **Documento sobre a grade curricular dos alunos (ou similar)?**
+
+7. **Documento da legislação utilizada pela biblioteca?**
+
+8. **Categorizar o serviço de cada funcionário e identificar melhorias necessárias**
+
+9. **Há penalidades por atraso, livro danificado ou perdido?**
+
+10. **Diferenças por tipo de usuário (Aluno, Professor e Funcionário)?**  
+    (Prazos, limites e penalidades)
+
+11. **Como desejaria organizar o sistema?**
+
+12. **Quais as principais dificuldades/problemas da biblioteca?**
+
+13. **Há muitos usuários com necessidades especiais (acessibilidade)?**
+
+14. **Normas e regulamentos gerais de uso e inventário do acervo?**
+
+15. **Como desejaria o design do sistema?**
+
+16. Como funciona a regra de negócios?
+
+17. O acervo online é categorizado em quantas e quais categorias?  
+    (Organizar para melhor visualização)
+
+18. **Quais as principais dificuldades/problemas da biblioteca?**
+
+19. Quais protocolos existem na biblioteca?  
+    (Caso não saiba, descrever um protocolo padrão baseado em regra de negócio)
+
+---
+
+## 📌 Questões para Júlia
+
+1. Caso um aluno esqueça de devolver o livro no prazo, o que acontece?  
+   Qual abordagem de comunicação deve ser utilizada?
+
+2. Como é o fluxo operacional?
+
+---
+
+## 📝 Observações para Lu
+
+Na primeira interação (**entrevista 01 – assíncrona**), foram feitas perguntas como:
+
+- **O funcionamento tem maior uso de noite ou de dia?**
+- **Nome, funcionalidade e horário de atendimento dos profissionais?**
+
+Entretanto, as respostas não trouxeram o valor esperado e demandaram muito tempo de análise.
+
+➡️ Para esta etapa, optamos por:
+- Focar no fluxo principal  
+- Reduzir a quantidade de perguntas  
+- Priorizar questões mais objetivas, específicas e bem estruturadas  
+
+---
+
+## ⚙️ Definição das tarefas correlatas
+
+- **Breno:** responsável por estruturar a equipe e garantir qualidade e aderência do produto  
+- **Felipe:** responsável pela execução da ideia e implementação do sistema da biblioteca  
+- **Keyse:** responsável pelo acompanhamento e validação, garantindo ausência de erros  
+- **Vilson:** responsável pelo planejamento e organização das ideias de forma concisa  
