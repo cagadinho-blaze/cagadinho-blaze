@@ -1,6 +1,13 @@
 
 |Cenário|	|O que o critério diz|	|O que o protótipo mostra|	|Resultado|
-|Fluxo principal|	||	|...|	|✅ / ❌ / ⚠️|
-|Bloqueio / erro|	|...|	|...|	|✅ / ❌ / ⚠️|
-|Alternativo|	|...|	|...|	|✅ / ❌ / ⚠️|
-|Exceção (se houver)|	|...|	|...|	|✅ / ❌ / ⚠️|
+|---------| |------------| |---------| |----------|
+|Fluxo principal|	|Catalogação de Livros e reserva |	|O protótipo mostra vários cenários sobre as possibilidaades de retirada do livro em questão, dando vigor ao resultado esperada do prototipo|	|✅|
+|Bloqueio / erro|	|Bloqueio operacional da reserva por multa ativada |	|Há breves relatos do que aconteceria, mas acho que uma maior abrangencia seria melhor|	|⚠️:falha na história|
+|Alternativo|	|Reserva digital e multa|	|Há relatos da utilização e explicação do cenário sugerido|	|✅|
+|Exceção (se houver)|	|Bloqueio da renovação se já estiver com livro reservado|	|Cenários mencionam o caso e indicam o termino|	|✅|
+
+|Cenário|	|O que o critério diz|	|O que o protótipo mostra|	|Resultado|
+|Fluxo principal|	|Livros digitais|	|Apresenta abordagem do assunto, mas não menciona sua organização|	|⚠️:falha na história|
+|Bloqueio / erro|	|Bloqueio por livro reservado ou não cadastrado|	|Apresentou cenários efetivos para o entendimento de quando acontece o caso|	|✅|
+|Alternativo|	|Livro com falta ou em atraso|	|Justifica com mensagens de exibição e notificação ou email sobre o livro|	|✅|
+|Exceção (se houver)|	|Diretor|	|Mostrou que não há multas para uso de livros para o diretor|	|✅|
