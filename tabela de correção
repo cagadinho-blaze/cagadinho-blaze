@@ -1,4 +1,4 @@
-| Técnica | Descrição | Quando Usar | Vantagens | Limitações |
+| Fluxo principal | Bloqueio / erro | Alternativo | Exceção (se houver)|
 |---------|-----------|-------------|-----------|------------|
 |Prototipagem em esboços |permite ao desenvolvedor expressar suas ideias por meio de ilustrações simples ou complexas.|Fases iniciais do projeto  |Barato e rápido |Baixa interatividade, difícil para usuários entenderem fluxos complexos|
 | Prototipagem digital|Feita com uso de softwares como Figma, Adobe XD ou Sketch para criar modelos interativos de interfaces digitais.|Projetos de UX/UI ou aplicativos. |Validação real de dados e backend.|Alto custo e complexidade de desenvolvimento. |
