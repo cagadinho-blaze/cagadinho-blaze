@@ -1,5 +1,5 @@
 |Cenário|	|O que o critério diz|	|O que o protótipo mostra|	|Resultado|
-|Fluxo principal|	|...|	|...|	✅ / ❌ / ⚠️
-|Bloqueio / erro|	|...|	|...|	✅ / ❌ / ⚠️
-|Alternativo|	|...|	|...|	✅ / ❌ / ⚠️
-|Exceção (se houver)|	|...|	|...|	✅ / ❌ / ⚠️
+|Fluxo principal|	|...|	|...|	|✅ / ❌ / ⚠️|
+|Bloqueio / erro|	|...|	|...|	|✅ / ❌ / ⚠️|
+|Alternativo|	|...|	|...|	|✅ / ❌ / ⚠️|
+|Exceção (se houver)|	|...|	|...|	|✅ / ❌ / ⚠️|
